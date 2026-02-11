@@ -37,7 +37,7 @@ class AuthTokenSerializer(serializers.Serializer):
         write_only=True
     )
     token = serializers.CharField(
-        label=_('Token'),
+        label=_("Token"),
         read_only=True
     )
 
